@@ -10,4 +10,6 @@ El evento 2 está asociado al evento 'mouse up' y dentro del bloque 'new picture
 Dentro de la estructura 'case', cuando la variable local está en falso, no ocurre ninguna acción. Sin embargo, cuando la variable local está en verdadero, se procesa un 'image data' dentro del caso. Se modifican las coordenadas del 'image data' en función de las obtenidas de la propiedad 'coords' del evento. Luego, se asigna una variable local al 'image data' modificado. Este proceso se repite en los otros dos casos del 'case'.
 En el bucle 'while' principal, las variables locales de los 'image data' ingresan a un bloque 'Draw Flattened Pixmap.vi', y en cascada se muestran en un 'New picture'.
 
+El archivo 'Manejodedatos.vi' contiene un código en el cual se utiliza una estructura 'while loop'. Dentro de esta estructura, hay tres interruptores booleanos que forman un número que se utiliza como selector para una estructura 'case'. Cada caso en la estructura 'case' contiene un 'array cluster' con datos de diferentes personas. La salida del caso seleccionado es el 'array cluster' correspondiente, y estos datos se muestran utilizando diferentes indicadores.
+
 
