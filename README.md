@@ -1,5 +1,5 @@
 # labview
-Codigos en software Labview relacionados con Ciudades Sostenibles
+Códigos desarrollados en LabVIEW versión 22.3 relacionados con Ciudades Sostenibles.
 
 El archivo de nombre 'Http.vi', contiene un codigo que realiza una solicitud GET a una URL determinada utilizando el VI "GET.vi" y luego muestra el cuerpo de la respuesta HTTP en un indicador visual. Esto permite obtener información de un servidor web o API y mostrarla en LabVIEW. Además se encuentra El bloque "Export Image" dentro del Waveform Graph en LabVIEW que permite exportar el gráfico como un archivo de imagen BMP en una ubicación especificada.  
 
